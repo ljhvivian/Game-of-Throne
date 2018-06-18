@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
-
+QT       += multimedia
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Bomber
@@ -24,22 +24,56 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-    mw1.cpp \
     icon.cpp \
     rpgobj.cpp \
     character.cpp \
     world.cpp \
-    object.cpp \
-    weapon.cpp
+    weapon.cpp \
+    bodyarmor.cpp \
+    monster.cpp \
+    player.cpp \
+    fire.cpp \
+    ice.cpp \
+    bullet.cpp \
+    bomb.cpp \
+    notetable.cpp \
+    gameworld1.cpp \
+    fruit.cpp \
+    poison.cpp \
+    gameworld2.cpp \
+    gameworld3.cpp \
+    hello.cpp  \
+    option.cpp  \
+    ranking.cpp
 
 HEADERS  += \
-    mw1.h \
     icon.h \
     rpgobj.h \
     character.h \
     world.h \
-    object.h \
-    weapon.h
+    weapon.h \
+    bodyarmor.h \
+    monster.h \
+    player.h \
+    fire.h \
+    ice.h \
+    bullet.h \
+    bomb.h \
+    notetable.h \
+    gameworld1.h \
+    fruit.h \
+    poison.h \
+    gameworld2.h \
+    gameworld3.h \
+    hello.h  \
+    option.h  \
+    ranking.h
 
 FORMS    += \
-    mw1.ui
+    gameworld1.ui \
+    gameworld2.ui \
+    gameworld3.ui \
+    hello.ui  \
+    option.ui  \
+    ranking.ui
+
